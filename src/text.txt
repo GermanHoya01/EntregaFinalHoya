@@ -1,0 +1,7 @@
+que onda, tienen problemas con la estructura del proyecto? Seria algo asi
+-App(padre)
+--Navbar(aparece en todas las rutas)
+--ItemListContainer(aparece en la ruta principal o sea '/') --> ItemList --> Ítem
+--ItemDetailContainer(aparece en la ruta '/detail/:id)--> ItemDetail --> ItemCount
+ahi estan todos los componentes que deberían ir en la segunda preentrega, en orden de padre a hijo
+todo lo que esta debajo de app debe ir adentro de app dentro de routes(menos navbar)
